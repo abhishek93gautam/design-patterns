@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c762cff2-f561-4ccd-b131-17bccc695047" name="Changes" comment="Added prototype creational pattern">
-      <change afterPath="$PROJECT_DIR$/src/creational/factory/Readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="c762cff2-f561-4ccd-b131-17bccc695047" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +28,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Programming-work/Design-Patterns&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Programming-work/Design-Patterns/src/creational/singleton",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Programming-work\Design-Patterns\src\creational\singleton" />
+      <recent name="C:\Programming-work\Design-Patterns\src\creational\factory" />
+      <recent name="C:\Programming-work\Design-Patterns\src\creational\prototype" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Programming-work\Design-Patterns\src\creational\prototype" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.DemoRegistry">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.prototype.shapes.Demo" />
@@ -164,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694052144029</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added factory pattern notes">
+      <created>1694144932629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694144932629</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +198,7 @@
     <MESSAGE value="Added .idea to gitignore" />
     <MESSAGE value="Removed .idea" />
     <MESSAGE value="Added prototype creational pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added prototype creational pattern" />
+    <MESSAGE value="Added factory pattern notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added factory pattern notes" />
   </component>
 </project>
