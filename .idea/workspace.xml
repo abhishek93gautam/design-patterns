@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c762cff2-f561-4ccd-b131-17bccc695047" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/Readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/builder.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/builders/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/builders/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/builders/CarManualBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/cars/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/cars/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/cars/Manual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/components/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/components/GPSNavigator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/components/Transmission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/components/TripComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creational/builder/director/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/adapters/SquarePegAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/round/RoundHole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/round/RoundPeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapter/square/SquarePeg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +36,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Programming-work/Design-Patterns/src/creational/builder",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Programming-work/Design-Patterns/src/creational/builder&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Programming-work\Design-Patterns\src\creational\builder" />
@@ -64,7 +56,20 @@
       <recent name="C:\Programming-work\Design-Patterns\src\creational\prototype" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.creational.builder.Demo">
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.adapter.Demo" />
+      <module name="Design-Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoRegistry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.prototype.cache.DemoRegistry" />
       <module name="Design-Patterns" />
@@ -118,33 +123,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="creational.prototype.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.prototype.Demo" />
-      <module name="Design-Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Demo" />
       <item itemvalue="Application.creational.builder.Demo" />
       <item itemvalue="Application.creational.abstractFactory.Demo" />
       <item itemvalue="Application.creational.factory.Demo" />
-      <item itemvalue="Application.creational.prototype.Demo" />
       <item itemvalue="Application.DemoRegistry" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.creational.builder.Demo" />
         <item itemvalue="Application.creational.abstractFactory.Demo" />
         <item itemvalue="Application.creational.factory.Demo" />
         <item itemvalue="Application.DemoRegistry" />
-        <item itemvalue="Application.creational.prototype.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694402251586</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added builder creational design pattern with examples and code">
+      <created>1694773989218</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694773989218</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +226,8 @@
     <MESSAGE value="Added factory pattern notes" />
     <MESSAGE value="Factory pattern implementation" />
     <MESSAGE value="Added abstract factory creational design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added abstract factory creational design pattern" />
+    <MESSAGE value="Added builder creational design pattern with examples and code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added builder creational design pattern with examples and code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
